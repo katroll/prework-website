@@ -1,20 +1,104 @@
 body {
-  background-color: #5FA3E7;
-  text-align: center;
-  }
-
-h1 {
-  color: #1C298B;
+  margin: 0;
 }
 
-#picOne {
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.image-corners {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.w-profile-card {
   width: 400px;
-  padding: 15px;
 }
 
-img:hover {
-  transform: scaleX(-1);
+.bg-white {
+  background: white;
 }
 
+.shadow-md {
+  box-shadow: 0rem 1.375rem 1.75rem 0rem rgb(27 54 74 / 9%);
+}
+
+.rounded-md {
+  border-radius: 12px;
+}
+
+.h-image {
+  height: 150px;
+}
+
+.h-name {
+  height: 150px;
+}
+
+.h-links {
+  height: 100px;
+}
+
+.font-header {
+  font-family: "Inter";
+}
+
+.text-header-1 {
+  font-size: 2.25em;
+}
+
+.text-header-2 {
+  font-size: 1em;
+}
+
+.mb-2 {
+  margin-bottom: .5em;
+}
+
+.divider {
+  height: 1px;
+  background-color: rgb(68, 63, 63);
+  width: 80%;
+}
+
+.mr-2 {
+  margin-right: .5em;
+}
+
+.ml-2 {
+  margin-left: .5em;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: black;
+}
+
+.bg-gradient {
+  background: linear-gradient(45deg, #64A1EE, #4354E7);
+}
 
 
