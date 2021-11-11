@@ -101,4 +101,8 @@ body {
   background: linear-gradient(45deg, #64A1EE, #4354E7);
 }
 
+#hidden-image {
+  width: 150px;
+  display: none;
+}
 
